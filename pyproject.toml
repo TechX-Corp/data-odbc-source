@@ -1,0 +1,14 @@
+[build-system]
+requires = ["maturin>=1.8.0,<1.9.0"]
+build-backend = "maturin"
+
+[project]
+name = "odbc-source"
+version = "0.3.17"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
